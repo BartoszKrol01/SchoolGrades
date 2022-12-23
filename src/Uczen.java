@@ -15,6 +15,10 @@ public class Uczen {
 
     public static List<Uczen> uczniowie = new ArrayList<>();
 
+    public Uczen() {
+
+    }
+
     public Uczen(String linia) {
         super();
         String[] dane = linia.split(";");

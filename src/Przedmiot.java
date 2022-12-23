@@ -13,6 +13,10 @@ public class Przedmiot {
 
     public static List<Przedmiot> przedmioty = new ArrayList<>();
 
+    public Przedmiot() {
+
+    }
+
     public Przedmiot(String linia) {
         super();
         String[] dane = linia.split(";");

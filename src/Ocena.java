@@ -13,6 +13,10 @@ public class Ocena {
 
     public static List<Ocena> oceny = new ArrayList<>();
 
+    public Ocena() {
+
+    }
+
     public Ocena(String linia) {
         super();
         String[] dane = linia.split(";");
